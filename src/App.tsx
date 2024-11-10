@@ -1,8 +1,17 @@
+// Components
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+
+// Pages
+import Home from "./pages/Home"
+
 function App() {
 
   return (
     <>
-     My new Portfolio
+     <Navbar />
+       <Home />
+      <Footer />
     </>
   )
 }
