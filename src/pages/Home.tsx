@@ -1,4 +1,4 @@
-import React from 'react'
+import styled from "styled-components"
 
 const Home = () => {
   return (
@@ -7,3 +7,7 @@ const Home = () => {
 }
 
 export default Home
+
+const HomeContainer = styled.div`
+
+`;
