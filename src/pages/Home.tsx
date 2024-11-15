@@ -5,6 +5,7 @@ const Home = () => {
     <HomeContainer>
         <MainTitle>Welcome to my new Portfolio site</MainTitle>
         <SubTitle>Take a look around :D</SubTitle>
+        <MainButton></MainButton>
     </HomeContainer>
   )
 }
