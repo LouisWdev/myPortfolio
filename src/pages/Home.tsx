@@ -23,3 +23,5 @@ const MainTitle = styled.h1`
 const SubTitle = styled.h2`
       text-align: center;
 `;
+
+const MainButton = styled.div``;
