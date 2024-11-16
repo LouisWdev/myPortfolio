@@ -5,7 +5,12 @@ const Home = () => {
     <HomeContainer>
         <MainTitle>Welcome to my new Portfolio site</MainTitle>
         <SubTitle>Take a look around :D</SubTitle>
-        <MainButton></MainButton>
+        <MainButton>Go To Portfolio</MainButton>
+
+        <RecentContainer>
+            <RecentProjectText>Most Recent Projects</RecentProjectText>
+            <RecentProjectCard></RecentProjectCard>
+        </RecentContainer>
     </HomeContainer>
   )
 }
@@ -25,4 +30,8 @@ const SubTitle = styled.h2`
       text-align: center;
 `;
 
-const MainButton = styled.div``;
+const MainButton = styled.Button``;
+
+const RecentContainer = styled.div``;
+const RecentProjectText = styled.h2``;
+const RecentProjectCard = styled.div``;
