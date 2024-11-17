@@ -5,11 +5,15 @@ const Home = () => {
     <HomeContainer>
         <MainTitle>Welcome to my new Portfolio site</MainTitle>
         <SubTitle>Take a look around :D</SubTitle>
-        <MainButton>Go To Portfolio</MainButton>
+          <MainButtonsContainer>
+             <MainButton>Go To Portfolio</MainButton>
+             <ContactButton>Contact Me</ContactButton>
+          </MainButtonsContainer>
 
         <RecentContainer>
             <RecentProjectText>Most Recent Projects</RecentProjectText>
             <RecentProjectCard></RecentProjectCard>
+
         </RecentContainer>
     </HomeContainer>
   )
@@ -17,6 +21,8 @@ const Home = () => {
 
 export default Home
 
+
+/* STYLED COMPONENTS */
 const HomeContainer = styled.div`
         
 `;
@@ -30,7 +36,12 @@ const SubTitle = styled.h2`
       text-align: center;
 `;
 
-const MainButton = styled.Button``;
+const MainButtonsContainer = styled.div`
+      margin-left: 43vw;
+`;
+const MainButton = styled.button``;
+
+const ContactButton = styled.button``;
 
 const RecentContainer = styled.div``;
 const RecentProjectText = styled.h2``;
