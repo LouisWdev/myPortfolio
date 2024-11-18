@@ -37,11 +37,32 @@ const SubTitle = styled.h2`
 `;
 
 const MainButtonsContainer = styled.div`
-      margin-left: 43vw;
+      margin-left: 42vw;
 `;
-const MainButton = styled.button``;
+const MainButton = styled.button`
+     margin-right: 1vw;
+     cursor: pointer;
+     border: 3px solid lightblue;
+     border-radius: 5px;
+     padding: 1vh;
+     transition: all 0.5s;
 
-const ContactButton = styled.button``;
+     &:hover {
+        background-color: lightblue;
+     }
+`;
+const ContactButton = styled.button`
+     border: 3px solid lightblue;
+     border-radius: 5px;
+     padding: 1vh;
+     cursor: pointer;
+     transition: all 0.5s;
+
+     &:hover {
+        background-color: lightblue;
+     }
+
+`;
 
 const RecentContainer = styled.div``;
 const RecentProjectText = styled.h2``;
