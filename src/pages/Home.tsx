@@ -64,6 +64,10 @@ const ContactButton = styled.button`
 
 `;
 
-const RecentContainer = styled.div``;
-const RecentProjectText = styled.h2``;
+const RecentContainer = styled.div`
+     margin: 5vh 41vw;
+`;
+
+const RecentProjectText = styled.h2`
+`;
 const RecentProjectCard = styled.div``;

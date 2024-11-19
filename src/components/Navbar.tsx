@@ -25,9 +25,10 @@ const HomeButton = styled.button`
       border-radius: 5px;
       border: 3px solid lightblue;
       transition: all 0.5s;
+      cursor: pointer;
 
       &:hover {
-        background-color: blue;
+        background-color: lightblue;
       }
 `;
 
@@ -44,11 +45,12 @@ const PortfolioButton = styled.button`
       padding: 1vh 2vw;
       border-radius: 5px;
       border: 3px solid lightblue;
+      cursor: pointer;
 
       transition: all 0.5s;
 
       &:hover {
-        background-color: blue;
+        background-color: lightblue;
       }
 `;
 
@@ -57,10 +59,11 @@ const ContactButton = styled.button`
       margin-left: 1vw;
       border-radius: 5px;
       border: 3px solid lightblue;
+      cursor: pointer;
 
       transition: all 0.5s;
 
       &:hover {
-        background-color: blue;
+        background-color: lightblue;
       }
 `;
