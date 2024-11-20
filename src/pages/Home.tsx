@@ -12,8 +12,10 @@ const Home = () => {
 
         <RecentContainer>
             <RecentProjectText>Most Recent Projects</RecentProjectText>
-            <RecentProjectCard></RecentProjectCard>
-
+             <RecentProjectCard>
+                  <ProjectCardTitle>Recent Project 1</ProjectCardTitle>
+                  <ProjectCardDescription></ProjectCardDescription>
+             </RecentProjectCard>
         </RecentContainer>
     </HomeContainer>
   )
@@ -70,4 +72,17 @@ const RecentContainer = styled.div`
 
 const RecentProjectText = styled.h2`
 `;
-const RecentProjectCard = styled.div``;
+
+const RecentProjectCard = styled.div`
+      border: solid white 3px;
+      border-radius: 5px;
+      padding: 15vh;
+      position: relative;
+`;
+
+const ProjectCardTitle = styled.h3`
+`;
+
+const ProjectCardDescription = styled.h3``;
+
+const ProjectCardImage = styled.h3``;
