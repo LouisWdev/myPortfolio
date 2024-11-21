@@ -78,10 +78,9 @@ const RecentProjectText = styled.h2`
 
 /* RECENT PROJECT CARD */
 const RecentProjectCard = styled.div`
-      border: solid white 3px;
-      border-radius: 5px;
+      border: solid white 4px;
+      border-radius: 3.5%;
       position: relative;
-
 `;
 
 const ProjectCardTitle = styled.h3`
