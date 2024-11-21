@@ -13,8 +13,10 @@ const Home = () => {
         <RecentContainer>
             <RecentProjectText>Most Recent Projects</RecentProjectText>
              <RecentProjectCard>
-                  <ProjectCardTitle>Recent Project 1</ProjectCardTitle>
-                  <ProjectCardDescription></ProjectCardDescription>
+                 <ProjectCardTextContainer>
+                    <ProjectCardTitle>Recent Project 1</ProjectCardTitle>
+                    <ProjectCardDescription>This is gonna be the first recent project</ProjectCardDescription>
+                 </ProjectCardTextContainer>
              </RecentProjectCard>
         </RecentContainer>
     </HomeContainer>
@@ -68,21 +70,28 @@ const ContactButton = styled.button`
 
 const RecentContainer = styled.div`
      margin: 5vh 41vw;
+     padding: 0;
 `;
 
 const RecentProjectText = styled.h2`
 `;
 
+/* RECENT PROJECT CARD */
 const RecentProjectCard = styled.div`
       border: solid white 3px;
       border-radius: 5px;
-      padding: 15vh;
       position: relative;
+
 `;
 
 const ProjectCardTitle = styled.h3`
 `;
 
-const ProjectCardDescription = styled.h3``;
+const ProjectCardDescription = styled.h4`
+`;
+
+const ProjectCardTextContainer = styled.div`
+      padding: 1vh 1vw;
+`;
 
 const ProjectCardImage = styled.h3``;
