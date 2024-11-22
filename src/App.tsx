@@ -1,6 +1,7 @@
 // Components
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
+import { BrowserRouter } from "react-router-dom"
 
 // Pages
 import Home from "./pages/Home"
@@ -10,7 +11,9 @@ function App() {
   return (
     <>
      <Navbar />
-       <Home />
+        <BrowserRouter>
+          <Home />
+        </BrowserRouter>
       <Footer />
     </>
   )

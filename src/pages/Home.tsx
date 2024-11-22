@@ -11,7 +11,7 @@ const Home = () => {
           </MainButtonsContainer>
 
         <RecentContainer>
-            <RecentProjectText>Most Recent Projects</RecentProjectText>
+             <RecentProjectText>Most Recent Projects</RecentProjectText>
              <RecentProjectCard>
                  <ProjectCardTextContainer>
                     <ProjectCardTitle>Recent Project 1</ProjectCardTitle>
