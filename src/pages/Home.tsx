@@ -2,25 +2,38 @@ import styled from "styled-components"
 
 const Home = () => {
   return (
-    <HomeContainer>
-        <MainTitle>Welcome to my new Portfolio site</MainTitle>
-        <SubTitle>Take a look around :D</SubTitle>
-          <MainButtonsContainer>
-             <MainButton>Go To Portfolio</MainButton>
-             <ContactButton>Contact Me</ContactButton>
-          </MainButtonsContainer>
-             
-        <RecentContainer>
-             <RecentProjectText>Most Recent Projects</RecentProjectText>
-             <RecentProjectCard>
-                 <ProjectCardTextContainer>
-                    <ProjectCardTitle>Recent Project 1</ProjectCardTitle>
-                    <ProjectCardDescription>This is gonna be the first recent project</ProjectCardDescription>
-                    <ProjectCardImage>Image goes here</ProjectCardImage>
-                 </ProjectCardTextContainer>
-             </RecentProjectCard>
-        </RecentContainer>
-    </HomeContainer>
+   <>
+    <HomeSection>
+             <HomeContainer>
+                 <MainTitle>Welcome to my new Portfolio site</MainTitle>
+                 <SubTitle>Take a look around :D</SubTitle>
+                   <MainButtonsContainer>
+                      <MainButton>Go To Portfolio</MainButton>
+                      <ContactButton>Contact Me</ContactButton>
+                   </MainButtonsContainer>
+                      
+                 <RecentContainer>
+                      <RecentProjectText>Most Recent Projects</RecentProjectText>
+                      <RecentProjectCard>
+                          <ProjectCardTextContainer>
+                             <ProjectCardTitle>Recent Project 1</ProjectCardTitle>
+                             <ProjectCardDescription>This is gonna be the first recent project</ProjectCardDescription>
+                             <ProjectCardImage>Image goes here</ProjectCardImage>
+                          </ProjectCardTextContainer>
+                      </RecentProjectCard>
+                 </RecentContainer>
+             </HomeContainer>
+      </HomeSection>
+
+      <AboutSection>
+      </AboutSection>
+
+      <PortfolioSection>
+      </PortfolioSection>
+
+      <ContactSection>
+      </ContactSection>
+     </>
   )
 }
 
@@ -28,9 +41,28 @@ export default Home
 
 
 /* STYLED COMPONENTS */
-const HomeContainer = styled.div`
-        
+/***  SECTIONS ***/
+const HomeSection = styled.div`
+     height: 100vh;
 `;
+
+const AboutSection = styled.div`
+     background-color: blue;
+     height: 100vh;
+`;
+
+const PortfolioSection = styled.div`
+    background-color: red;
+    height: 100vh;
+`;
+
+const ContactSection = styled.div`
+    background-color: yellow;
+    height: 100vh;
+`;
+
+/* Landing Section */
+const HomeContainer = styled.div``;
 
 const MainTitle = styled.h1`
       text-align: center;

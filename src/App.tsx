@@ -1,22 +1,25 @@
-// Components
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
-import { BrowserRouter } from "react-router-dom"
+// COMPONENTS
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-// Pages
-import Home from "./pages/Home"
+// PAGES
+import Home from "./pages/Home";
+
+// STYLED COMPONENTS
+import styled from "styled-components";
 
 function App() {
 
   return (
-    <>
-     <Navbar />
-        <BrowserRouter>
-          <Home />
-        </BrowserRouter>
+    <MainContainer>
+      <Navbar />
+      <Home />
       <Footer />
-    </>
+    </MainContainer>
   )
 }
 
 export default App
+
+// STYLED 
+const MainContainer = styled.div``;
