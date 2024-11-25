@@ -16,54 +16,51 @@ const Navbar = () => {
 export default Navbar
 
 const NavbarContainer = styled.div`
-      height: 10vh;
+     position: fixed;
+     top: 2%;
+     background-color: transparent;
 `;
+
 const HomeButton = styled.button`
+      display: inline;
+      margin-left: 1vw;
       padding: 1vh 2vw;
-      margin: 1vh;
-      display: inline-block;
+      font-size: medium;
+      border: white 2px solid;
       border-radius: 5px;
-      border: 3px solid lightblue;
       transition: all 0.5s;
-      cursor: pointer;
 
       &:hover {
-        background-color: lightblue;
+          background-color: lightblue;
       }
 `;
 
 const RightButtonContainer = styled.div`
       display: inline-block;
-      position: absolute;
-      right: 3%;
-
-      
+      margin-left: 70vw;
 `;
 
 const PortfolioButton = styled.button`
-      margin: 1vh;
       padding: 1vh 2vw;
+      font-size: medium;
+      border: white 2px solid;
       border-radius: 5px;
-      border: 3px solid lightblue;
-      cursor: pointer;
-
       transition: all 0.5s;
 
       &:hover {
-        background-color: lightblue;
+          background-color: lightblue;
       }
 `;
-
 const ContactButton = styled.button`
-      padding: 1vh 2vw;
       margin-left: 1vw;
-      border-radius: 5px;
-      border: 3px solid lightblue;
-      cursor: pointer;
 
+      padding: 1vh 2vw;
+      font-size: medium;
+      border: white 2px solid;
+      border-radius: 5px;
       transition: all 0.5s;
 
       &:hover {
-        background-color: lightblue;
+          background-color: lightblue;
       }
 `;
