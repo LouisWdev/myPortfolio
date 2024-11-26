@@ -9,7 +9,8 @@ const Footer = () => {
 export default Footer
 
 const MainFooterContainer = styled.div`
-      position: absolute;
+      position: fixed;
       bottom: 0%;
       margin: 1vh;
+      background-color: transparent;
 `;
