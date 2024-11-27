@@ -67,7 +67,7 @@ const HomeContainer = styled.div``;
 const MainTitle = styled.h1`
       text-align: center;
       margin-top:10vh;
-      font-size: larger;
+      font-size: 2.5rem;
 `;
 
 const SubTitle = styled.h2`
