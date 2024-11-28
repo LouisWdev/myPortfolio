@@ -26,6 +26,9 @@ const Home = () => {
       </HomeSection>
 
       <AboutSection>
+
+      
+
       </AboutSection>
 
       <PortfolioSection>
@@ -61,7 +64,7 @@ const ContactSection = styled.div`
     height: 100vh;
 `;
 
-/* Landing Section */
+/* LANDING SECTION */
 const HomeContainer = styled.div``;
 
 const MainTitle = styled.h1`
@@ -118,6 +121,7 @@ const RecentProjectCard = styled.div`
 `;
 
 const ProjectCardTitle = styled.h3`
+      font-weight: bolder;
 `;
 
 const ProjectCardDescription = styled.h4`
@@ -130,3 +134,5 @@ const ProjectCardTextContainer = styled.div`
 const ProjectCardImage = styled.div`
       padding: 4vh 3vw;
 `;
+
+/* ABOUT SECTION */
