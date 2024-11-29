@@ -121,7 +121,7 @@ const RecentProjectCard = styled.div`
 `;
 
 const ProjectCardTitle = styled.h3`
-      font-weight: bolder;
+      font-weight: 800;
 `;
 
 const ProjectCardDescription = styled.h4`
