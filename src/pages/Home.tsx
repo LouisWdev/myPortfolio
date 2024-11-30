@@ -27,7 +27,13 @@ const Home = () => {
 
       <AboutSection>
 
-      
+          <AboutContainer>
+            <AboutTextContainer>
+                  <AboutTitleText></AboutTitleText>
+                  <AboutParagraph>
+                  </AboutParagraph>
+            </AboutTextContainer>
+          </AboutContainer>
 
       </AboutSection>
 
@@ -136,3 +142,7 @@ const ProjectCardImage = styled.div`
 `;
 
 /* ABOUT SECTION */
+const AboutContainer = styled.div``;
+const AboutTextContainer = styled.div``;
+const AboutTitleText = styled.h2``;
+const AboutParagraph = styled.p``;
