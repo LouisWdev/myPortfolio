@@ -29,7 +29,7 @@ const Home = () => {
 
           <AboutContainer>
             <AboutTextContainer>
-                  <AboutTitleText></AboutTitleText>
+                  <AboutTitleText>How I started</AboutTitleText>
                   <AboutParagraph>
                   </AboutParagraph>
             </AboutTextContainer>
