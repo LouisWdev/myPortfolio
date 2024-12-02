@@ -22,6 +22,7 @@ const NavbarContainer = styled.div`
 `;
 
 const HomeButton = styled.button`
+      cursor: pointer;
       display: inline;
       margin-left: 1vw;
       padding: 1vh 2vw;
@@ -46,6 +47,7 @@ const PortfolioButton = styled.button`
       border: white 2px solid;
       border-radius: 5px;
       transition: all 0.5s;
+      cursor: pointer;
 
       &:hover {
           background-color: lightblue;
@@ -59,6 +61,7 @@ const ContactButton = styled.button`
       border: white 2px solid;
       border-radius: 5px;
       transition: all 0.5s;
+      cursor: pointer;
 
       &:hover {
           background-color: lightblue;

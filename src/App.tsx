@@ -2,8 +2,8 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-// PAGES
-import Home from "./pages/Home";
+// SECTIONS
+import Home from "./Home";
 
 // STYLED COMPONENTS
 import styled from "styled-components";
@@ -13,7 +13,7 @@ function App() {
   return (
     <MainContainer>
       <Navbar />
-      <Home />
+         <Home />
       <Footer />
     </MainContainer>
   )

@@ -1,5 +1,10 @@
 import styled from "styled-components"
 
+// SECTIONS
+import AboutSection from "./Section/AboutSection";
+import ContactSection from "./Section/ContactSection";
+import PortfolioSection from "./Section/PortfolioSection";
+
 const Home = () => {
   return (
    <>
@@ -25,23 +30,9 @@ const Home = () => {
              </HomeContainer>
       </HomeSection>
 
-      <AboutSection>
-
-          <AboutContainer>
-            <AboutTextContainer>
-                  <AboutTitleText>How I started</AboutTitleText>
-                  <AboutParagraph>
-                  </AboutParagraph>
-            </AboutTextContainer>
-          </AboutContainer>
-
-      </AboutSection>
-
-      <PortfolioSection>
-      </PortfolioSection>
-
-      <ContactSection>
-      </ContactSection>
+        <AboutSection />
+        <ContactSection />
+        <PortfolioSection />
      </>
   )
 }
@@ -53,21 +44,6 @@ export default Home
 /***  SECTIONS ***/
 const HomeSection = styled.div`
      height: 100vh;
-`;
-
-const AboutSection = styled.div`
-     background-color: blue;
-     height: 100vh;
-`;
-
-const PortfolioSection = styled.div`
-    background-color: red;
-    height: 100vh;
-`;
-
-const ContactSection = styled.div`
-    background-color: yellow;
-    height: 100vh;
 `;
 
 /* LANDING SECTION */
@@ -98,6 +74,7 @@ const MainButton = styled.button`
         background-color: lightblue;
      }
 `;
+
 const ContactButton = styled.button`
      border: 3px solid lightblue;
      border-radius: 5px;
@@ -140,9 +117,3 @@ const ProjectCardTextContainer = styled.div`
 const ProjectCardImage = styled.div`
       padding: 4vh 3vw;
 `;
-
-/* ABOUT SECTION */
-const AboutContainer = styled.div``;
-const AboutTextContainer = styled.div``;
-const AboutTitleText = styled.h2``;
-const AboutParagraph = styled.p``;
