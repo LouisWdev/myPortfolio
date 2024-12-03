@@ -21,7 +21,9 @@ export default AboutSection
 /* STYLED COMPONENTS */
 /* ABOUT SECTION */
 
-const AboutContainer = styled.div``;
+const AboutContainer = styled.div`
+      height: 100vh;
+`;
 const AboutTextContainer = styled.div``;
 const AboutTitleText = styled.h2``;
 const AboutParagraph = styled.p``;
