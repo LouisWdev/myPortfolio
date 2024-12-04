@@ -24,6 +24,10 @@ export default AboutSection
 const AboutContainer = styled.div`
       height: 100vh;
 `;
-const AboutTextContainer = styled.div``;
+const AboutTextContainer = styled.div`
+      padding: 5vh 3vw;
+      margin: 2vh 2vw;
+`;
+
 const AboutTitleText = styled.h2``;
 const AboutParagraph = styled.p``;
