@@ -23,6 +23,7 @@ export default AboutSection
 
 const AboutContainer = styled.div`
       height: 100vh;
+      display: grid;
 `;
 const AboutTextContainer = styled.div`
       padding: 5vh 3vw;
@@ -30,4 +31,5 @@ const AboutTextContainer = styled.div`
 `;
 
 const AboutTitleText = styled.h2``;
+
 const AboutParagraph = styled.p``;
