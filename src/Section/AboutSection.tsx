@@ -28,8 +28,11 @@ const AboutContainer = styled.div`
 const AboutTextContainer = styled.div`
       padding: 5vh 3vw;
       margin: 2vh 2vw;
+      width: 15vw;
 `;
 
-const AboutTitleText = styled.h2``;
+const AboutTitleText = styled.h2`
+      
+`;
 
 const AboutParagraph = styled.p``;
