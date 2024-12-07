@@ -5,7 +5,20 @@ const AboutSection = () => {
     <>
           <AboutContainer>
             <AboutTextContainer>
+                  {/* */}
                   <AboutTitleText>How I started</AboutTitleText>
+                  <AboutParagraph>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed voluptates, numquam temporibus exercitationem quis labore sunt repudiandae atque aperiam voluptate!
+                  </AboutParagraph>
+                  {/* */}
+                  <AboutTitleText>Web Development</AboutTitleText>
+                  <AboutParagraph>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed voluptates, numquam temporibus exercitationem quis labore sunt repudiandae atque aperiam voluptate!
+                  </AboutParagraph>
+                  <AboutTitleText>AI</AboutTitleText>
+                  {/* */}
                   <AboutParagraph>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed voluptates, numquam temporibus exercitationem quis labore sunt repudiandae atque aperiam voluptate!
@@ -27,8 +40,8 @@ const AboutContainer = styled.div`
 `;
 const AboutTextContainer = styled.div`
       padding: 5vh 3vw;
-      margin: 2vh 2vw;
-      width: 15vw;
+      margin: 2vh 10vw;
+      width: 30vw;
 `;
 
 const AboutTitleText = styled.h2`
