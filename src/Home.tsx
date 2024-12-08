@@ -31,8 +31,8 @@ const Home = () => {
       </HomeSection>
 
         <AboutSection />
-        <ContactSection />
         <PortfolioSection />
+        <ContactSection />
      </>
   )
 }

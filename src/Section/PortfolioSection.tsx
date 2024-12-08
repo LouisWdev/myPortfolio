@@ -2,7 +2,12 @@ import styled from "styled-components"
 
 const PortfolioSection = () => {
   return (
-    <MainContainer>PortfolioSection</MainContainer>
+    <MainContainer>
+       <ProjectCard>
+         <ProjectCardTitle>First Project</ProjectCardTitle>
+         <ProjectCardText></ProjectCardText>
+       </ProjectCard>
+    </MainContainer>
   )
 }
 
@@ -13,3 +18,7 @@ const MainContainer = styled.div`
       height: 100vh;
       background-color: green;
 `;
+
+const ProjectCard = styled.div``;
+const ProjectCardTitle = styled.h1``;
+const ProjectCardText = styled.p``;
