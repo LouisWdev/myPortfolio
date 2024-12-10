@@ -5,7 +5,9 @@ const PortfolioSection = () => {
     <MainContainer>
        <ProjectCard>
          <ProjectCardTitle>First Project</ProjectCardTitle>
+         <ProjectCardImage></ProjectCardImage>
          <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
+         <ProjectCardButton>Go to project</ProjectCardButton>
        </ProjectCard>
     </MainContainer>
   )
@@ -29,7 +31,13 @@ const ProjectCard = styled.div`
 `;
 
 const ProjectCardTitle = styled.h1`
+    padding: 1vh 1vw;
 `;
 
 const ProjectCardText = styled.p`
+    padding: 2vh 2vw;
 `;
+
+const ProjectCardImage = styled.image``;
+
+const ProjectCardButton = styled.button``;
