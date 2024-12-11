@@ -9,6 +9,20 @@ const PortfolioSection = () => {
          <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
          <ProjectCardButton>Go to project</ProjectCardButton>
        </ProjectCard>
+
+       <ProjectCard>
+         <ProjectCardTitle>First Project</ProjectCardTitle>
+         <ProjectCardImage></ProjectCardImage>
+         <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
+         <ProjectCardButton>Go to project</ProjectCardButton>
+       </ProjectCard>
+
+       <ProjectCard>
+         <ProjectCardTitle>First Project</ProjectCardTitle>
+         <ProjectCardImage></ProjectCardImage>
+         <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
+         <ProjectCardButton>Go to project</ProjectCardButton>
+       </ProjectCard>
     </MainContainer>
   )
 }
