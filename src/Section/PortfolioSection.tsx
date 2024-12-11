@@ -42,6 +42,7 @@ const ProjectCard = styled.div`
       width: 20vw;
       height: 40vh;
       border-radius: 20px;
+      margin: 1vh 1vw;
 `;
 
 const ProjectCardTitle = styled.h1`
