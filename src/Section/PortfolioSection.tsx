@@ -55,4 +55,10 @@ const ProjectCardText = styled.p`
 
 const ProjectCardImage = styled.image``;
 
-const ProjectCardButton = styled.button``;
+const ProjectCardButton = styled.button`
+      padding: 2vh 4vw;
+      color: white;
+      margin: 1vh 3vw;
+      border: 0.5vh solid white;
+      border-radius: 1vh;
+`;
