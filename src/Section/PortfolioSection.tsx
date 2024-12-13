@@ -11,14 +11,14 @@ const PortfolioSection = () => {
        </ProjectCard>
 
        <ProjectCard>
-         <ProjectCardTitle>First Project</ProjectCardTitle>
+         <ProjectCardTitle>Second Project</ProjectCardTitle>
          <ProjectCardImage></ProjectCardImage>
          <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
          <ProjectCardButton>Go to project</ProjectCardButton>
        </ProjectCard>
 
        <ProjectCard>
-         <ProjectCardTitle>First Project</ProjectCardTitle>
+         <ProjectCardTitle>Third Project</ProjectCardTitle>
          <ProjectCardImage></ProjectCardImage>
          <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
          <ProjectCardButton>Go to project</ProjectCardButton>
@@ -61,4 +61,9 @@ const ProjectCardButton = styled.button`
       margin: 1vh 3vw;
       border: 0.5vh solid white;
       border-radius: 1vh;
+      transition: 500ms all;
+
+      &:hover {
+          background-color: lightblue;
+      }
 `;
