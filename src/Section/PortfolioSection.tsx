@@ -5,21 +5,21 @@ const PortfolioSection = () => {
     <MainContainer>
        <ProjectCard>
          <ProjectCardTitle>First Project</ProjectCardTitle>
-         <ProjectCardImage></ProjectCardImage>
+         <ProjectCardImage>Image goes here</ProjectCardImage>
          <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
          <ProjectCardButton>Go to project</ProjectCardButton>
        </ProjectCard>
 
        <ProjectCard>
          <ProjectCardTitle>Second Project</ProjectCardTitle>
-         <ProjectCardImage></ProjectCardImage>
+         <ProjectCardImage>Image goes here</ProjectCardImage>
          <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
          <ProjectCardButton>Go to project</ProjectCardButton>
        </ProjectCard>
 
        <ProjectCard>
          <ProjectCardTitle>Third Project</ProjectCardTitle>
-         <ProjectCardImage></ProjectCardImage>
+         <ProjectCardImage>Image goes here</ProjectCardImage>
          <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
          <ProjectCardButton>Go to project</ProjectCardButton>
        </ProjectCard>
@@ -40,7 +40,7 @@ const MainContainer = styled.div`
 const ProjectCard = styled.div`
       border: solid white 1vh;
       width: 20vw;
-      height: 40vh;
+      height: 50vh;
       border-radius: 20px;
       margin: 1vh 1vw;
 `;
@@ -53,9 +53,13 @@ const ProjectCardText = styled.p`
     padding: 2vh 2vw;
 `;
 
-const ProjectCardImage = styled.image``;
+const ProjectCardImage = styled.image`
+    height: 5vh;
+    margin: 5vh 5vw;
+`;
 
 const ProjectCardButton = styled.button`
+      cursor: pointer;
       padding: 2vh 4vw;
       color: white;
       margin: 1vh 3vw;
