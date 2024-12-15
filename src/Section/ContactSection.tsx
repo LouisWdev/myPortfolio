@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 const ContactSection = () => {
   return (
-    <MainContainer>ContactSection</MainContainer>
+    <MainContainer>
+      <FormContainer></FormContainer>
+    </MainContainer>
   )
 }
 
@@ -10,6 +12,9 @@ export default ContactSection
 
 /* STYLED COMPONENTS */
 const MainContainer = styled.div`
-     background-color: red;
-     height: 100vh;
+     height: 90vh;
 `;
+
+const FormContainer = styled.div`
+`;
+
