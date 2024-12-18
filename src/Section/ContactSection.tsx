@@ -29,9 +29,19 @@ const FormContainer = styled.div`
 `;
 
 const EmailContainer = styled.form`
-
+     text-align: left;
+     padding: 1vh 8vw;
+     border: 0.4vh solid white;
 `;
 
-const CompanyName = styled.form``;
+const CompanyName = styled.form`
+     text-align: left;
+     padding: 1vh 8vw;
+     border: 0.4vh solid white;
+`;
 
-const ExtraText = styled.form``;
+const ExtraText = styled.form`
+     text-align: left;
+     padding: 1vh 8vw;
+     border: 0.4vh solid white;
+`;
