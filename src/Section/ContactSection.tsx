@@ -32,16 +32,19 @@ const EmailContainer = styled.form`
      text-align: left;
      padding: 1vh 8vw;
      border: 0.4vh solid white;
+     border-radius: 1vh;
 `;
 
 const CompanyName = styled.form`
      text-align: left;
      padding: 1vh 8vw;
      border: 0.4vh solid white;
+     border-radius: 1vh;
 `;
 
 const ExtraText = styled.form`
      text-align: left;
      padding: 1vh 8vw;
      border: 0.4vh solid white;
+     border-radius: 1vh;
 `;
