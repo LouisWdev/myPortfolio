@@ -4,9 +4,9 @@ const ContactSection = () => {
   return (
     <MainContainer>
       <FormContainer>
-        <EmailContainer>Email</EmailContainer>
-        <CompanyName>Company name</CompanyName>
-        <ExtraText>Exra comment</ExtraText>
+          <EmailContainer>Email</EmailContainer>
+          <CompanyName>Company name</CompanyName>
+          <ExtraText>Extra Text</ExtraText>
       </FormContainer>
     </MainContainer>
   )
@@ -29,6 +29,7 @@ const FormContainer = styled.div`
 `;
 
 const EmailContainer = styled.form`
+     margin: 1vh;
      text-align: left;
      padding: 1vh 8vw;
      border: 0.4vh solid white;
@@ -36,6 +37,7 @@ const EmailContainer = styled.form`
 `;
 
 const CompanyName = styled.form`
+     margin: 1vh;
      text-align: left;
      padding: 1vh 8vw;
      border: 0.4vh solid white;
@@ -43,6 +45,7 @@ const CompanyName = styled.form`
 `;
 
 const ExtraText = styled.form`
+     margin: 1vh;
      text-align: left;
      padding: 1vh 8vw;
      border: 0.4vh solid white;
