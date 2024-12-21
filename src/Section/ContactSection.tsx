@@ -34,6 +34,7 @@ const EmailContainer = styled.form`
      padding: 1vh 8vw;
      border: 0.4vh solid white;
      border-radius: 1vh;
+     cursor: pointer;
 `;
 
 const CompanyName = styled.form`
@@ -42,6 +43,7 @@ const CompanyName = styled.form`
      padding: 1vh 8vw;
      border: 0.4vh solid white;
      border-radius: 1vh;
+     cursor: pointer;
 `;
 
 const ExtraText = styled.form`
@@ -50,4 +52,5 @@ const ExtraText = styled.form`
      padding: 1vh 8vw;
      border: 0.4vh solid white;
      border-radius: 1vh;
+     cursor: pointer;
 `;
