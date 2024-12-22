@@ -16,7 +16,7 @@ export default ContactSection
 
 /* STYLED COMPONENTS */
 const MainContainer = styled.div`
-     height: 90vh;
+     height: 100vh;
      display: flex;
      justify-content: center;
      align-items: center;
