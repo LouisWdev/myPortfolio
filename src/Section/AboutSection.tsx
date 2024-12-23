@@ -5,20 +5,20 @@ const AboutSection = () => {
     <>
           <AboutContainer>
             <AboutTextContainer>
-                  {/* */}
+                  {/* First text */}
                   <AboutTitleText>How I started</AboutTitleText>
                   <AboutParagraph>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed voluptates, numquam temporibus exercitationem quis labore sunt repudiandae atque aperiam voluptate!
                   </AboutParagraph>
-                  {/* */}
+                  {/* Second text */}
                   <AboutTitleText>Web Development</AboutTitleText>
                   <AboutParagraph>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed voluptates, numquam temporibus exercitationem quis labore sunt repudiandae atque aperiam voluptate!
                   </AboutParagraph>
                   <AboutTitleText>AI</AboutTitleText>
-                  {/* */}
+                  {/* Third text */}
                   <AboutParagraph>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed voluptates, numquam temporibus exercitationem quis labore sunt repudiandae atque aperiam voluptate!
