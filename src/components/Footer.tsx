@@ -14,3 +14,5 @@ const MainFooterContainer = styled.div`
       margin: 1vh;
       background-color: transparent;
 `;
+
+const SocialsContainer = styled.div``;
