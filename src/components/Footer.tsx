@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 const Footer = () => {
   return (
-    <MainFooterContainer>@All rights reserved Louis W</MainFooterContainer>
+    <>
+      <MainFooterContainer>@All rights reserved Louis W</MainFooterContainer>
+      <SocialsContainer></SocialsContainer>
+    </>
   )
 }
 
