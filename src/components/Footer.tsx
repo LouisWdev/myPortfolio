@@ -4,7 +4,10 @@ const Footer = () => {
   return (
     <>
       <MainFooterContainer>@All rights reserved Louis W</MainFooterContainer>
-      <SocialsContainer></SocialsContainer>
+      <SocialsContainer>
+          <ListItem>LinkedIn</ListItem>
+          <ListItem>X</ListItem>
+      </SocialsContainer>
     </>
   )
 }
@@ -18,4 +21,8 @@ const MainFooterContainer = styled.div`
       background-color: transparent;
 `;
 
-const SocialsContainer = styled.div``;
+const SocialsContainer = styled.div`
+      
+`;
+
+const ListItem = styled.div``;
