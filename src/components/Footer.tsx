@@ -6,7 +6,7 @@ const Footer = () => {
       <MainFooterContainer>@All rights reserved Louis W</MainFooterContainer>
       <SocialsContainer>
           <ListItem>LinkedIn</ListItem>
-          <ListItem>X</ListItem>
+          <ListItem>GitHub</ListItem>
       </SocialsContainer>
     </>
   )
