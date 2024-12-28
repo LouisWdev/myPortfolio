@@ -22,7 +22,7 @@ const MainFooterContainer = styled.div`
 `;
 
 const SocialsContainer = styled.div`
-      
+      padding: 1vh;
 `;
 
 const ListItem = styled.div``;
