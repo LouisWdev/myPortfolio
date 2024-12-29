@@ -25,4 +25,6 @@ const SocialsContainer = styled.div`
       padding: 1vh;
 `;
 
-const ListItem = styled.div``;
+const ListItem = styled.div`
+      padding: 1vh;
+`;
