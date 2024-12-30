@@ -5,8 +5,8 @@ const Footer = () => {
     <>
       <MainFooterContainer>@All rights reserved Louis W</MainFooterContainer>
       <SocialsContainer>
-          <ListItem>LinkedIn</ListItem>
-          <ListItem>GitHub</ListItem>
+            <ListItem>LinkedIn</ListItem>
+            <ListItem>GitHub</ListItem>
       </SocialsContainer>
     </>
   )
@@ -23,6 +23,7 @@ const MainFooterContainer = styled.div`
 
 const SocialsContainer = styled.div`
       padding: 1vh;
+      margin: 1vh;
 `;
 
 const ListItem = styled.div`
