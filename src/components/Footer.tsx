@@ -15,7 +15,6 @@ const Footer = () => {
 export default Footer
 
 const MainFooterContainer = styled.div`
-      position: fixed;
       bottom: 0%;
       margin: 1vh;
       background-color: transparent;
@@ -28,4 +27,5 @@ const SocialsContainer = styled.div`
 
 const ListItem = styled.div`
       padding: 1vh;
+      cursor: pointer;
 `;
