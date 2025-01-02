@@ -25,7 +25,7 @@ const HomeButton = styled.button`
       cursor: pointer;
       display: inline;
       margin-left: 1vw;
-      padding: 1vh 2vw;
+      padding: 0.5vh 1.5vw;
       font-size: medium;
       border: white 2px solid;
       border-radius: 5px;
@@ -42,7 +42,7 @@ const RightButtonContainer = styled.div`
 `;
 
 const PortfolioButton = styled.button`
-      padding: 1vh 2vw;
+      padding: 0.5vh 1.5vw;
       font-size: medium;
       border: white 2px solid;
       border-radius: 5px;
@@ -56,7 +56,7 @@ const PortfolioButton = styled.button`
 const ContactButton = styled.button`
       margin-left: 1vw;
 
-      padding: 1vh 2vw;
+      padding: 0.5vh 1.5vw;
       font-size: medium;
       border: white 2px solid;
       border-radius: 5px;
