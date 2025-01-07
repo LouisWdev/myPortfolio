@@ -15,24 +15,9 @@ const Home = () => {
                    <MainButtonsContainer>
                       <MainButton>Go To Portfolio</MainButton>
                       <ContactButton>Contact Me</ContactButton>
-                   </MainButtonsContainer>
-                      
-                 <RecentContainer>
-                      <RecentProjectText>Most Recent Projects</RecentProjectText>
-                      <RecentProjectCard>
-                          <ProjectCardTextContainer>
-                             <ProjectCardTitle>Recent Project 1</ProjectCardTitle>
-                             <ProjectCardDescription>This is gonna be the first recent project</ProjectCardDescription>
-                             <ProjectCardImage>Image goes here</ProjectCardImage>
-                          </ProjectCardTextContainer>
-                      </RecentProjectCard>
-                 </RecentContainer>
+                   </MainButtonsContainer>         
              </HomeContainer>
       </HomeSection>
-
-        <AboutSection />
-        <PortfolioSection />
-        <ContactSection />
      </>
   )
 }
