@@ -1,9 +1,5 @@
 import styled from "styled-components"
 
-// SECTIONS
-import AboutSection from "./Section/AboutSection";
-import ContactSection from "./Section/ContactSection";
-import PortfolioSection from "./Section/PortfolioSection";
 
 const Home = () => {
   return (
