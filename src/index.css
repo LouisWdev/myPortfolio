@@ -12,3 +12,37 @@
   background-color: black;
   color: white;
 }
+
+.nav-link {
+      padding: 5vh 2vw;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.2rem;
+      background-color: #05D9E8;
+      color: yellow;
+      transition: all 0.5s linear;
+      border-left: #005678 solid;
+      text-decoration: none;
+}
+
+.nav-link:hover {
+      background-color: black;
+}
+
+.last-nav-link {
+      padding: 5vh 4vw;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.2rem;
+      background-color: #05D9E8;
+      color: yellow;
+      transition: all 0.5s linear;
+      border-left: #005678 solid;
+      border-right: #005678 solid;
+      margin-right: 4vw;
+      text-decoration: none;
+}
+
+.last-nav-link:hover {
+   background-color: black; 
+}

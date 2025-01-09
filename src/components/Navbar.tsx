@@ -1,20 +1,19 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Navbar = () => {
   return (
     <NavbarContainer>
-           <Navbutton>Home</Navbutton>  
-           <Navbutton>Portfolio</Navbutton>
-           <LastButton>Contact me</LastButton>
-
-           <Lines></Lines>
-           <Lines></Lines>
-           <Lines></Lines>
+           <Link to={"/"} className="nav-link">Home</Link>
+           <Link to={"/portfolio"} className="nav-link">Portfolio</Link>
+           <Link to={"/contact"} className="last-nav-link">Contact me</Link>
     </NavbarContainer>
   )
 }
 
 export default Navbar
+
+/* STYLED COMPONENTS */
 
 const NavbarContainer = styled.div`
      position: fixed;
@@ -30,41 +29,4 @@ const NavbarContainer = styled.div`
      &:hover {
       transform: translate(-1vw);
      }
-`;
-
-const Navbutton = styled.div`
-      padding: 5vh 2vw;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 1.2rem;
-      background-color: #05D9E8;
-      color: yellow;
-      transition: all 0.5s linear;
-      border-left: #005678 solid;
-
-      &:hover {
-        background-color: black;
-      }
-`;
-
-const LastButton = styled.div`
-      padding: 5vh 4vw;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 1.2rem;
-      background-color: #05D9E8;
-      color: yellow;
-      transition: all 0.5s linear;
-      border-left: #005678 solid;
-      border-right: #005678 solid;
-      margin-right: 4vw;
-
-      &:hover {
-        background-color: black;
-      }
-`;
-
-
-const Lines = styled.div`
-      border-top: #005678 3px solid;
 `;

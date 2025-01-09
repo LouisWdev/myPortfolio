@@ -2,18 +2,26 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-// SECTIONS
+// PAGES
 import Home from "./Home";
+import AboutSection from "./Section/AboutSection";
+import PortfolioSection from "./Section/PortfolioSection";
 
 // STYLED COMPONENTS
 import styled from "styled-components";
+// REACT-ROUTER-DOM
+import { Routes, Route } from "react-router-dom";
 
 function App() {
 
   return (
     <MainContainer>
       <Navbar />
-         <Home />
+        <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/about" element={<AboutSection />}/>
+            <Route path="/portfolio" element={<PortfolioSection />}/>
+        </Routes>
       <Footer />
     </MainContainer>
   )
