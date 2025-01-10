@@ -10,19 +10,19 @@ const PortfolioSection = () => {
          <ProjectCardButton>Go to project</ProjectCardButton>
        </ProjectCard>
 
-       <ProjectCard>
-         <ProjectCardTitle>Second Project</ProjectCardTitle>
-         <ProjectCardImage>Image goes here</ProjectCardImage>
-         <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
-         <ProjectCardButton>Go to project</ProjectCardButton>
-       </ProjectCard>
+       <SkillSection>
+         <SkillTitle></SkillTitle>
+         <SkillChips>
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+         </SkillChips>
+       </SkillSection>
 
-       <ProjectCard>
-         <ProjectCardTitle>Third Project</ProjectCardTitle>
-         <ProjectCardImage>Image goes here</ProjectCardImage>
-         <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
-         <ProjectCardButton>Go to project</ProjectCardButton>
-       </ProjectCard>
+       <CTAsection>
+          <CTAtitle>Want to Collaborate ?</CTAtitle>
+          <ContactButton>Contact Me</ContactButton>
+       </CTAsection>
     </MainContainer>
   )
 }
@@ -31,18 +31,18 @@ export default PortfolioSection
 
 /* STYLED COMPONENTS */
 const MainContainer = styled.div`
-      display: flex;
+      display: block;
       height: 100vh;
-      justify-content: center;
-      align-items: center;
-`;
+  `;
 
+/* Project Card's Section */
 const ProjectCard = styled.div`
       border: solid white 1vh;
       width: 20vw;
       height: 50vh;
       border-radius: 20px;
       margin: 1vh 1vw;
+      margin: 20vh 40vw;
 `;
 
 const ProjectCardTitle = styled.h1`
@@ -71,3 +71,15 @@ const ProjectCardButton = styled.button`
           background-color: lightblue;
       }
 `;
+
+/* Skills Section */
+const SkillSection = styled.div`
+      height: 100vh;
+`;
+const SkillTitle = styled.div``;
+const SkillChips = styled.div``;
+
+/*CallToAction*/
+const CTAsection = styled.div``;
+const CTAtitle = styled.div``;
+const ContactButton = styled.div``;

@@ -1,48 +1,65 @@
 :root {
-  margin: 0;
-  padding: 0;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 :root::-webkit-scrollbar {
   display: none;
 }
 
+@font-face {
+  font-family: 'CannetAgencyDemoRegular';
+    src: url('./src/assets/CannetAgencyDemoRegular-gxz85.otf');
+    src: url('./assets/CannetAgencyDemoRegular-gxz85.ttf');
+}
+
 * {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: black;
   color: white;
+
+  margin:0 0 ;
+  padding:0 0 ;
 }
 
+/* NAVBAR LINKS */
 .nav-link {
-      padding: 5vh 2vw;
+      font-family: "Exo 2", serif;
+      padding: 4vh 2vw;
       cursor: pointer;
-      font-weight: bold;
-      font-size: 1.2rem;
+      font-weight: medium;
+      font-size: 3vh;
       background-color: #05D9E8;
       color: yellow;
       transition: all 0.5s linear;
       border-left: #005678 solid;
+      border-bottom: #005678 solid;
       text-decoration: none;
-}
-
-.nav-link:hover {
-      background-color: black;
+      
 }
 
 .last-nav-link {
-      padding: 5vh 4vw;
+      font-family: "Exo 2", serif;
+      padding: 4vh 2vw;
       cursor: pointer;
-      font-weight: bold;
-      font-size: 1.2rem;
+      font-weight: medium;
+      font-size: 3vh;
       background-color: #05D9E8;
       color: yellow;
       transition: all 0.5s linear;
       border-left: #005678 solid;
+      border-bottom: #005678 solid;
       border-right: #005678 solid;
       margin-right: 4vw;
       text-decoration: none;
 }
 
+/* NAVBAR HOVER EFFECTS */
+.nav-link:hover {
+      background-color: black;
+}
+
 .last-nav-link:hover {
    background-color: black; 
 }
+
