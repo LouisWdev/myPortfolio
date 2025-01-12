@@ -28,7 +28,7 @@
       padding: 4vh 2vw;
       cursor: pointer;
       font-weight: medium;
-      font-size: 3vh;
+      font-size: 2.5vh;
       background-color: #05D9E8;
       color: yellow;
       transition: all 0.5s linear;
@@ -43,7 +43,7 @@
       padding: 4vh 2vw;
       cursor: pointer;
       font-weight: medium;
-      font-size: 3vh;
+      font-size: 2.5vh;
       background-color: #05D9E8;
       color: yellow;
       transition: all 0.5s linear;
@@ -63,3 +63,7 @@
    background-color: black; 
 }
 
+/* span */
+span {
+  display: block;
+}

@@ -1,12 +1,5 @@
 // styled comps import
 import styled from "styled-components";
-// three js
-import * as THREE from 'three';
-
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-
-
 
 const PortfolioSection = () => {
   return (
@@ -21,7 +14,7 @@ const PortfolioSection = () => {
        </ProjectCard>
 
        <SkillSection>
-         <SkillTitle></SkillTitle>
+         <SkillTitle>Skills:</SkillTitle>
          <SkillChips>
             <span>React</span>
             <span>JavaScript</span>
@@ -87,7 +80,8 @@ const SkillSection = styled.div`
       height: 100vh;
 `;
 const SkillTitle = styled.div``;
-const SkillChips = styled.div``;
+const SkillChips = styled.div`
+`;
 
 /*CallToAction*/
 const CTAsection = styled.div``;
