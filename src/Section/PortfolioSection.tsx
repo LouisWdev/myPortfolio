@@ -75,11 +75,17 @@ const ProjectCardButton = styled.button`
       }
 `;
 
+
 /* Skills Section */
 const SkillSection = styled.div`
       height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 `;
-const SkillTitle = styled.div``;
+const SkillTitle = styled.div`
+      
+`;
 const SkillChips = styled.div`
 `;
 
