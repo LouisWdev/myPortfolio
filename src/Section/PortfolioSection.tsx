@@ -84,7 +84,7 @@ const SkillSection = styled.div`
       align-items: center;
 `;
 const SkillTitle = styled.div`
-      
+      padding: 3vh;
 `;
 const SkillChips = styled.div`
 `;
