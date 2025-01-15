@@ -11,6 +11,7 @@ import PortfolioSection from "./Section/PortfolioSection";
 import styled from "styled-components";
 // REACT-ROUTER-DOM
 import { Routes, Route } from "react-router-dom";
+import ContactSection from "./Section/ContactSection";
 
 function App() {
 
@@ -19,8 +20,9 @@ function App() {
       <Navbar />
         <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/about" element={<AboutSection />}/>
-            <Route path="/portfolio" element={<PortfolioSection />}/>
+            <Route path="/about" element={<AboutSection />} />
+            <Route path="/portfolio" element={<PortfolioSection />} />
+            <Route path="/contact" element={<ContactSection />} />
         </Routes>
       <Footer />
     </MainContainer>
