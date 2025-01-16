@@ -53,6 +53,7 @@ const ProjectCardTitle = styled.h1`
 `;
 
 const ProjectCardText = styled.p`
+    margin-top: 14vh;
     padding: 2vh 2vw;
 `;
 
