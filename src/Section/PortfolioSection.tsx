@@ -91,6 +91,9 @@ const SkillChips = styled.div`
 `;
 
 /*CallToAction*/
-const CTAsection = styled.div``;
+const CTAsection = styled.div`
+     height: 100vh;
+     display: flex;
+`;
 const CTAtitle = styled.div``;
 const ContactButton = styled.div``;
