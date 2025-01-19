@@ -66,6 +66,7 @@ const ProjectCardButton = styled.button`
       cursor: pointer;
       padding: 2vh 4vw;
       color: white;
+      background-color: yellow;
       margin: 1vh 3vw;
       border: 0.5vh solid white;
       border-radius: 1vh;
