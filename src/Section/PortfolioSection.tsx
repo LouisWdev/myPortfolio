@@ -65,7 +65,7 @@ const ProjectCardImage = styled.image`
 const ProjectCardButton = styled.button`
       cursor: pointer;
       padding: 2vh 4vw;
-      color: white;
+      color: black;
       background-color: yellow;
       margin: 1vh 3vw;
       border: 0.5vh solid white;
@@ -73,7 +73,8 @@ const ProjectCardButton = styled.button`
       transition: 500ms all;
 
       &:hover {
-          background-color: lightblue;
+          color: white;
+          background-color: #494900;
       }
 `;
 
