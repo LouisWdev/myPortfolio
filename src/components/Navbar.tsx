@@ -24,7 +24,7 @@ const NavbarContainer = styled.div`
      clip-path: polygon(0 0, 100% 0, 100% 58%, 87% 98%, 0 100%, 0% 50%);
      background: linear-gradient(90deg, #ff00ff, #00ffff);
      transform: translate(-30vw);
-     transition: transform 1.5s linear;
+     transition: transform 1s linear;
      box-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff, 0 0 60px #00ffff;
    
      /* Circuit pattern overlay */
