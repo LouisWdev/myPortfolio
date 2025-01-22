@@ -57,4 +57,8 @@ const NavbarContainer = styled.div`
         animation: pulseGlow 2s infinite;
      }
 
+     /* MOBILE */
+     @media ( max-width: 600px ) {
+          transform: translate(-47vw);
+     }
 `;

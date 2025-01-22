@@ -45,11 +45,23 @@ const RightsContainer = styled.div`
      .glitch {
        animation: glitch 0.3s infinite;
       }
+
+      /* MOBILE */
+     @media ( max-width: 600px ) {
+          width: 30vw;
+          font-size: 0.8em;
+     }
 `;
 
 const SocialsContainer = styled.div`
       width: 5vw;
       border-right: 5px solid #FDF500;
+
+      /* MOBILE */
+     @media ( max-width: 600px ) {
+          width: 10vw;
+          font-size: 0.8em;
+     }
 `;
 
 const ListItem = styled.div`
