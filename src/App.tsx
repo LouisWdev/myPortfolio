@@ -1,6 +1,5 @@
 // COMPONENTS
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 // PAGES
 import Home from "./Home";
@@ -24,7 +23,6 @@ function App() {
             <Route path="/portfolio" element={<PortfolioSection />} />
             <Route path="/contact" element={<ContactSection />} />
         </Routes>
-      <Footer />
     </MainContainer>
   )
 }

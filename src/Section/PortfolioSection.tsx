@@ -1,5 +1,6 @@
 // styled comps import
 import styled from "styled-components";
+import Footer from "../components/Footer";
 
 const PortfolioSection = () => {
   return (
@@ -43,6 +44,7 @@ const PortfolioSection = () => {
           <CTAtitle>Want to Collaborate ?</CTAtitle>
           <ContactButton>Contact Me</ContactButton>
        </CTAsection>
+       <Footer />
     </MainContainer>
   )
 }
@@ -163,6 +165,7 @@ const CTAsection = styled.div`
      align-items: center;
 `;
 const CTAtitle = styled.h3`
+    background-color: #061f2b;
 `;
 const ContactButton = styled.div` 
     margin: 2vh;

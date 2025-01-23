@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import heroImg from "./assets/heroImg.png";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 const Home = () => {
   const [mousePosition, setMousePosition] = useState({ x: 50, y: 50 });
@@ -17,9 +18,12 @@ const Home = () => {
   };
 
   return (
-    <HomeSection onMouseMove={handleMouseMove}>
-      <ImageContainer x={mousePosition.x} y={mousePosition.y} />
-    </HomeSection>
+    <>
+      <HomeSection onMouseMove={handleMouseMove}>
+        <ImageContainer x={mousePosition.x} y={mousePosition.y} />
+      </HomeSection>
+      <Footer />
+    </>
   );
 };
 
