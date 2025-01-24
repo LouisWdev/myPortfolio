@@ -16,7 +16,7 @@ const ContactSection = () => {
           </InputContainer>
           <InputContainer>
             <Label htmlFor="message">Message</Label>
-            <StyledTextArea id="message" rows="4" placeholder="Write your message here"></StyledTextArea>
+            <StyledTextArea id="message" placeholder="Write your message here" rows="4"></StyledTextArea>
           </InputContainer>
           <SubmitButton type="submit">Send</SubmitButton>
         </StyledForm>
