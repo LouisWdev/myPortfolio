@@ -8,8 +8,7 @@ const PortfolioProject = () => {
             <ProjectCardImage>Image goes here</ProjectCardImage>
             <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
             <ProjectCardButton>Go to project</ProjectCardButton>
-          </ProjectCard>
-     <ProjectCard />
+      </ProjectCard>
     </>
   )
 }
@@ -19,7 +18,6 @@ export default PortfolioProject
 /* PROJECT CARD */
 const ProjectCard = styled.div`
       border: solid white 1vh;
-      width: 20vw;
       height: 50vh;
       margin: 5vh 0;
       border-radius: 20px;
