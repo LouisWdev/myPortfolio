@@ -122,7 +122,8 @@ const CTAsection = styled.div`
      justify-content: center;
      align-items: center;
 `;
-const CTAtitle = styled.h3`
+const CTAtitle = styled.h2`
+    font-size: 2em;
     background-color: #061f2b;
 `;
 const ContactButton = styled.div` 
