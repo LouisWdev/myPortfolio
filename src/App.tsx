@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 // PAGES
 import Home from "./Home";
-import AboutSection from "./Section/About/AboutSection";
+import AboutSection from "./Section/Portfolio/AboutSection";
 import PortfolioSection from "./Section/PortfolioSection";
 
 // STYLED COMPONENTS

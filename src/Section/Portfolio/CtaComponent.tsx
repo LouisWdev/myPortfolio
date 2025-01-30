@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const CtaComponent = () => {
   return (
     <CTAsection>
           <CTAtitle>Want to Collaborate ?</CTAtitle>
-          <ContactButton>Contact Me</ContactButton>
+          <ContactButton>
+            <Link to={"/contact"} style={{backgroundColor: "transparent", color: "black", textDecoration: "none"}}>Contact Me</Link>
+          </ContactButton>
     </CTAsection>
   )
 }
