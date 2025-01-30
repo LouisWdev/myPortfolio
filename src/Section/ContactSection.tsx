@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const ContactSection = () => {
   return (
@@ -16,16 +16,16 @@ const ContactSection = () => {
           </InputContainer>
           <InputContainer>
             <Label htmlFor="message">Message</Label>
-            <StyledTextArea id="message" placeholder="Write your message here" rows="4"></StyledTextArea>
+            <StyledTextArea id="message" placeholder="Write your message here" rows={4} />
           </InputContainer>
           <SubmitButton type="submit">Send</SubmitButton>
         </StyledForm>
       </FormContainer>
     </MainContainer>
-  )
-}
+  );
+};
 
-export default ContactSection
+export default ContactSection;
 
 /* STYLED COMPONENTS */
 const MainContainer = styled.div`
@@ -91,7 +91,9 @@ const StyledInput = styled.input`
   }
 `;
 
-const StyledTextArea = styled.textarea`
+const StyledTextArea = styled.textarea.attrs((props) => ({
+  rows: props.rows || 4, // Default to 4 rows if not provided
+}))`
   padding: 0.8rem;
   font-size: 1rem;
   border: 2px solid #444;

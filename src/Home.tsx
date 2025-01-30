@@ -6,8 +6,10 @@ import Footer from "./components/Footer";
 const Home = () => {
   const [mousePosition, setMousePosition] = useState({ x: 50, y: 50 });
 
-  const handleMouseMove = (e: { clientX: any; clientY: any; currentTarget: any; }) => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     const { clientX, clientY, currentTarget } = e;
+    if (!currentTarget) return; // Ensure currentTarget exists
+
     const { width, height, left, top } = currentTarget.getBoundingClientRect();
 
     // Calculate percentage position of the mouse relative to the container
@@ -32,16 +34,21 @@ export default Home;
 /* STYLED COMPONENTS */
 
 const HomeSection = styled.div`
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 `;
 
-const ImageContainer = styled.div`
-    width: 100%;
-    height: 100%;
-    background-image: url(${heroImg});
-    background-size: cover;
-    background-position: ${(props) => props.x}% ${(props) => props.y}%;
-    transition: background-position 0.1s ease; /* Smooth movement effect */
+interface ImageContainerProps {
+  x: number;
+  y: number;
+}
+
+const ImageContainer = styled.div<ImageContainerProps>`
+  width: 100%;
+  height: 100%;
+  background-image: url(${heroImg});
+  background-size: cover;
+  background-position: ${(props) => props.x}% ${(props) => props.y}%;
+  transition: background-position 0.1s ease; /* Smooth movement effect */
 `;
