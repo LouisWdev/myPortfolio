@@ -1,4 +1,5 @@
 import styled from "styled-components"; 
+import { Text } from "@arwes/react";
 
 const AboutSection = () => {
   return (
@@ -6,7 +7,9 @@ const AboutSection = () => {
           <AboutContainer>
             <AboutTextContainer>
                   {/* First text */}
-                  <AboutTitleText>How I started</AboutTitleText>
+                  <AboutTitleText>
+                        <Text>How I started</Text>
+                  </AboutTitleText>
                   <AboutParagraph>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed voluptates, numquam temporibus exercitationem quis labore sunt repudiandae atque aperiam voluptate!

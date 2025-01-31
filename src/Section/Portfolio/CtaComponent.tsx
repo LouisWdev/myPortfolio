@@ -4,7 +4,9 @@ import styled from 'styled-components';
 const CtaComponent = () => {
   return (
     <CTAsection>
-          <CTAtitle>Want to Collaborate ?</CTAtitle>
+          <CTAtitle>
+             Want to Collaborate ?
+          </CTAtitle>
           <ContactButton>
             <Link to={"/contact"} style={{backgroundColor: "transparent", color: "black", textDecoration: "none"}}>Contact Me</Link>
           </ContactButton>

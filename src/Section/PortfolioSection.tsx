@@ -1,3 +1,6 @@
+// REACT
+import { useEffect, useState } from "react";
+
 // styled comps import
 import styled from "styled-components";
 import Footer from "../components/Footer";
@@ -5,12 +8,27 @@ import PortfolioProject from "./Portfolio/PortfolioProject";
 import CtaComponent from "./Portfolio/CtaComponent";
 import SkillsComponent from "./Portfolio/SkillsComponent";
 
+// ARWES
+import { Animator, Dots } from "@arwes/react";
+
 const PortfolioSection = () => {
+  const [active, setActive] = useState(true);
+
+  useEffect(() => {
+    const iid = setInterval(() => setActive(active => !active), 6000);
+    return () => clearInterval(iid);
+   }, []);
+
+
   return (
     <MainContainer>
        <ProjectsSection>
-          <PortfolioProject />
+        <Animator active={active}>
+           <Dots />
+        </ Animator>
+              <PortfolioProject />
        </ProjectsSection>
+            
 
        <SkillSection>
          <SkillsComponent />
