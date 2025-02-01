@@ -39,10 +39,10 @@ const ProjectCardImage = styled.image`
 
 const ProjectCardButton = styled.button`
       cursor: pointer;
-      padding: 2vh 4vw;
+      padding: 2vh 6vw;
       color: black;
       background-color: yellow;
-      margin: 1vh 3vw;
+      margin: 3vh;
       border: 0.5vh solid white;
       border-radius: 1vh;
       transition: 500ms all;
