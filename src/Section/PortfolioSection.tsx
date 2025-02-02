@@ -22,19 +22,18 @@ const PortfolioSection = () => {
 
   return (
     <MainContainer>
-       <ProjectsSection>
-        <Animator active={active}>
-           <Dots />
-        </ Animator>
-              <PortfolioProject />
-       </ProjectsSection>
-            
-
-       <SkillSection>
-         <SkillsComponent />
-      </SkillSection>
-
-       <CtaComponent />
+         <ProjectsSection>
+           <Animator active={active}>
+             <Dots />
+           </ Animator>
+             <PortfolioProject />
+             <PortfolioProject />
+             <PortfolioProject />
+          </ProjectsSection>
+         <SkillSection>
+          <SkillsComponent />
+         </SkillSection>
+        <CtaComponent />
        <Footer />
     </MainContainer>
   )
@@ -50,9 +49,12 @@ const MainContainer = styled.div`
 
 /* Project Card's Section */
 const ProjectsSection = styled.div`
-     padding: 15vh 40vw;
+     padding: 5vh 20vw;
      padding-bottom: 40vh;
      background-color: #061f2b;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 4vh;
 `;
 
 /* Skills Section */
