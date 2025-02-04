@@ -9,23 +9,13 @@ import CtaComponent from "./Portfolio/CtaComponent";
 import SkillsComponent from "./Portfolio/SkillsComponent";
 
 // ARWES
-import { Animator, Dots } from "@arwes/react";
+// import { Animator, Dots } from "@arwes/react";
 
 const PortfolioSection = () => {
-  const [active, setActive] = useState(true);
-
-  useEffect(() => {
-    const iid = setInterval(() => setActive(active => !active), 6000);
-    return () => clearInterval(iid);
-   }, []);
-
-
   return (
     <MainContainer>
          <ProjectsSection>
-           <Animator active={active}>
-             <Dots />
-           </ Animator>
+        
              <PortfolioProject />
              <PortfolioProject />
              <PortfolioProject />

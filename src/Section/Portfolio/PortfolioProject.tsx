@@ -2,14 +2,12 @@ import styled from 'styled-components';
 
 const PortfolioProject = () => {
   return (
-    <>
      <ProjectCard>
             <ProjectCardTitle> Project one </ProjectCardTitle>
             <ProjectCardImage>Image goes here</ProjectCardImage>
             <ProjectCardText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas.</ProjectCardText>
             <ProjectCardButton>Go to project</ProjectCardButton>
       </ProjectCard>
-    </>
   )
 }
 
@@ -22,6 +20,11 @@ const ProjectCard = styled.div`
       height: 50vh;
       margin: 5vh 0;
       border-radius: 20px;
+      transition: linear 1s;
+
+      &:hover {
+        box-shadow: 0 0 30px #ff00ff, 0 0 20px #00ffff; 
+      }
 `;
 
 const ProjectCardTitle = styled.h1`
