@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import PortfolioProject from "./Portfolio/PortfolioProject";
 import CtaComponent from "./Portfolio/CtaComponent";
 import SkillsComponent from "./Portfolio/SkillsComponent";
+import AboutSection from "./Portfolio/AboutSection";
 
 // ARWES
 // import { Animator, Dots } from "@arwes/react";
@@ -15,15 +16,21 @@ const PortfolioSection = () => {
   return (
     <MainContainer>
          <ProjectsSection>
-        
              <PortfolioProject />
              <PortfolioProject />
              <PortfolioProject />
-          </ProjectsSection>
+         </ProjectsSection>
+         
          <SkillSection>
           <SkillsComponent />
          </SkillSection>
-        <CtaComponent />
+         
+        <>
+          <AboutSection />
+        </>
+        <>
+          <CtaComponent />
+        </>
        <Footer />
     </MainContainer>
   )
