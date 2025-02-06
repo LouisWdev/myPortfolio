@@ -25,12 +25,13 @@ const PortfolioSection = () => {
           <SkillsComponent />
          </SkillSection>
          
-        <>
+        <AboutContainer>
           <AboutSection />
-        </>
-        <>
+        </AboutContainer>
+
+        <CtaContainer>
           <CtaComponent />
-        </>
+        </CtaContainer>
        <Footer />
     </MainContainer>
   )
@@ -64,4 +65,15 @@ const SkillSection = styled.div`
   color: #00ff00;
   border: 2px solid;
   font-family: 'Courier New', monospace;
+`;
+
+/* About section */
+const AboutContainer = styled.div`
+      
+`;
+
+
+/* Call to action section */
+const CtaContainer = styled.div`
+   
 `;
