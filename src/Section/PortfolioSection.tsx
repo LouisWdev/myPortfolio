@@ -69,7 +69,7 @@ const SkillSection = styled.div`
 
 /* About section */
 const AboutContainer = styled.div`
-      
+    height: 100vh;
 `;
 
 
