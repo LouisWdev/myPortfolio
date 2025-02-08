@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const SkillsComponent = () => {
   return (
-   <>
+   <Section>
     <SkillTitle>Skills:</SkillTitle>
         <TerminalContainer>
           <TerminalLine>
@@ -26,21 +26,34 @@ const SkillsComponent = () => {
             <SkillText> { '>' } Node.js - Intermediate</SkillText>
           </TerminalLine>
         </TerminalContainer>
-    </>
+    </Section>
   )
 }
 
 export default SkillsComponent;
+
+const Section = styled.div`
+   padding: 2vh 0;
+  width: 30vw;
+  margin-top: 10vh;
+  margin: 0 35vw;
+  padding: 2vh;
+  color: #00ff00;
+  border: 2px solid;
+  font-family: 'Courier New', monospace;
+`;
 
 const SkillTitle = styled.h3`
   color: #00ff00;
 `;
 
 /* Terminal Section */
+
 const TerminalContainer = styled.div`
   padding: 2vh;
   display: flex;
   flex-direction: column;
+
 `;
 
 const TerminalLine = styled.div`

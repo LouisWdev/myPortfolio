@@ -56,16 +56,7 @@ const ProjectsSection = styled.div`
 `;
 
 /* Skills Section */
-const SkillSection = styled.div`
-  padding: 2vh 0;
-  width: 30vw;
-  margin-top: 10vh;
-  margin: 0 35vw;
-  padding: 2vh;
-  color: #00ff00;
-  border: 2px solid;
-  font-family: 'Courier New', monospace;
-`;
+const SkillSection = styled.div``;
 
 /* About section */
 const AboutContainer = styled.div`
