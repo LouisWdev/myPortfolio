@@ -1,9 +1,8 @@
-// REACT
-import { useEffect, useState } from "react";
-
-// styled comps import
+// Components import
 import styled from "styled-components";
 import Footer from "../components/Footer";
+
+// Portfolio Sections
 import PortfolioProject from "./Portfolio/PortfolioProject";
 import CtaComponent from "./Portfolio/CtaComponent";
 import SkillsComponent from "./Portfolio/SkillsComponent";
@@ -65,6 +64,4 @@ const AboutContainer = styled.div`
 
 
 /* Call to action section */
-const CtaContainer = styled.div`
-   
-`;
+const CtaContainer = styled.div``;
