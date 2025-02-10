@@ -55,7 +55,10 @@ const ProjectsSection = styled.div`
 `;
 
 /* Skills Section */
-const SkillSection = styled.div``;
+const SkillSection = styled.div`
+      height: 100vh;
+      background-color: #061f2b;
+`;
 
 /* About section */
 const AboutContainer = styled.div`
