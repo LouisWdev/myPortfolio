@@ -9,7 +9,7 @@ import SkillsComponent from "./Portfolio/SkillsComponent";
 import AboutSection from "./Portfolio/AboutSection";
 
 // ARWES
-// import { Animator, Dots } from "@arwes/react";
+import { Animator, Dots } from "@arwes/react";
 
 const PortfolioSection = () => {
   return (
