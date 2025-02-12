@@ -8,9 +8,6 @@ import CtaComponent from "./Portfolio/CtaComponent";
 import SkillsComponent from "./Portfolio/SkillsComponent";
 import AboutSection from "./Portfolio/AboutSection";
 
-// ARWES
-import { Animator, Dots } from "@arwes/react";
-
 const PortfolioSection = () => {
   return (
     <MainContainer>

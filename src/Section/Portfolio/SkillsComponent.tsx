@@ -25,6 +25,10 @@ const SkillsComponent = () => {
             <span className="cursor"></span>
             <SkillText> { '>' } Node.js - Intermediate</SkillText>
           </TerminalLine>
+          <TerminalLine>
+            <span className="cursor"></span>
+            <SkillText> { '>' } SQL - Intermediate</SkillText>
+          </TerminalLine>
         </TerminalContainer>
     </Section>
   )
