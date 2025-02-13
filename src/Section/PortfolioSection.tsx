@@ -43,7 +43,7 @@ const MainContainer = styled.div`
 
 /* Project Card's Section */
 const ProjectsSection = styled.div`
-     padding: 5vh 20vw;
+     padding: 8vh 20vw;
      padding-bottom: 40vh;
      background-color: #061f2b;
      display: grid;
