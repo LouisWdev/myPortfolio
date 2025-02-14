@@ -36,9 +36,9 @@ const ProjectCardText = styled.p`
     padding: 2vh 2vw;
 `;
 
-const ProjectCardImage = styled.image`
-    height: 5vh;
-    margin: 5vh 5vw;
+const ProjectCardImage = styled.image` 
+        
+        margin: 5vh 5vw;
 `;
 
 const ProjectCardButton = styled.button`
