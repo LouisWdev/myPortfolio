@@ -15,6 +15,7 @@ export default PortfolioProject
 
 /* PROJECT CARD */
 const ProjectCard = styled.div`
+      background-color: #00FFB3;
       border: solid white 1vh;
       padding-bottom: 3vh;
       height: 50vh;
