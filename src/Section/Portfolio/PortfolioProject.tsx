@@ -30,15 +30,16 @@ const ProjectCard = styled.div`
 
 const ProjectCardTitle = styled.h1`
     padding: 1vh 1vw;
+    background-color: #00FFB3;
 `;
 
 const ProjectCardText = styled.p`
     margin-top: 14vh;
     padding: 2vh 2vw;
+    background-color: #00FFB3;
 `;
 
 const ProjectCardImage = styled.image` 
-        
         margin: 5vh 5vw;
 `;
 
