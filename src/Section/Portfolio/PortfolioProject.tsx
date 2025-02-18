@@ -30,13 +30,13 @@ const ProjectCard = styled.div`
 `;
 
 const ProjectCardTitle = styled.h1`
-    color: yellow;
+    color: #fdfd3f;
     padding: 1vh 1vw;
     background-color: #00FFB3;
 `;
 
 const ProjectCardText = styled.p`
-    color: yellow;
+    color: fdfd3f;
     /* text-shadow: ; */
     font-weight: bold;
     margin-top: 14vh;
