@@ -38,7 +38,7 @@ const ProjectCardTitle = styled.h1`
 const ProjectCardText = styled.p`
     color: fdfd3f;
     /* text-shadow: ; */
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 14vh;
     padding: 2vh 2vw;
     background-color: #00FFB3;
